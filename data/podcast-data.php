@@ -10,7 +10,7 @@ $videos = [
         'title' => "August 30, 2023 - Eugene Holubnyak - Hydrogen Energy Research Center",
         'videoID' => "luvHuNAWr7U",
         'category' => "ceo-podcast",
-        "display" => true
+        "display" => false
     ],
     [
         'title' => "September 22, 2023 - Dr. Chengzhang Wan - UCLA",

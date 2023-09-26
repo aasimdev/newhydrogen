@@ -35,7 +35,7 @@ $news = [
                 task forces, representing Kansas and the region on CO2 transport infrastructure and policy issues. He is passionate about advancing the climate tech and carbon capture & storage industry and exploring the potential of advanced life support systems for space settlements. Mr. Holubnyak is listed as a Google Scholar at <a href=\"https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Naomi+Boness&btnG=\" target=\"_blank\">https://scholar.google.com/citations?user=lXWa29UAAAAJ&hl=</a></p>"
             ],
             [
-                "<p>This podcast can be viewed at <a href=\"https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Naomi+Boness&btnG=\" target=\"_blank\"> https://newhydrogen.com/single-video.php?id=luvHuNAWr7U</a>
+                "<p>This podcast can be viewed at <a href=\"https://newhydrogen.com/single-video.php?id=luvHuNAWr7U\" target=\"_blank\"> https://newhydrogen.com/single-video.php?id=luvHuNAWr7U</a>
                 </p>"
             ],
             [

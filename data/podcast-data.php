@@ -1,10 +1,16 @@
 <?php
 $videos = [
     [
+        'title' => "September 25, 2023 - Dr. Mohamed F. Sanad Noufal - Hampton University",
+        'videoID' => "at3pL6ooXCo",
+        'category' => "ceo-podcast",
+        "display" => true
+    ],
+    [
         'title' => "August 30, 2023 - Eugene Holubnyak - Hydrogen Energy Research Center",
         'videoID' => "luvHuNAWr7U",
         'category' => "ceo-podcast",
-        "display" => false
+        "display" => true
     ],
     [
         'title' => "September 22, 2023 - Dr. Chengzhang Wan - UCLA",

@@ -4,7 +4,7 @@ $videos = [
         'title' => "September 25, 2023 - Dr. Mohamed F. Sanad Noufal - Hampton University",
         'videoID' => "at3pL6ooXCo",
         'category' => "ceo-podcast",
-        "display" => true
+        "display" => false
     ],
     [
         'title' => "August 30, 2023 - Eugene Holubnyak - Hydrogen Energy Research Center",

@@ -20,7 +20,7 @@ include('header.php'); ?>
         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5">
             <?php
             $filteredShortVideos = array_filter($videos, function ($item) {
-                return $item['category'] === 'short-video';
+                return $item['category'] === 'short-video' && $item['display'] === true;
             });
 
             foreach ($filteredShortVideos as $video) {

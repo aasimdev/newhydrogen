@@ -20,7 +20,7 @@ include('header.php'); ?>
         <div class="row">
             <?php
             $filteredCompanyNews = array_filter($news, function ($item) {
-                return $item['category'] === 'commentary';
+                return $item['category'] === 'commentary' && $item['display'] === true;
             });
 
             // Sort the company news articles by date in descending order
@@ -30,7 +30,6 @@ include('header.php'); ?>
 
             // $latestCompanyNews = array_slice($filteredCompanyNews, 0, 6);
             foreach ($filteredCompanyNews as $item) {
-                if ($video['display']) {
                 echo "<div class=\"col-lg-6\">
         <div class=\"newsItem\">
             <h5>{$item['title']}</h5>
@@ -41,7 +40,7 @@ include('header.php'); ?>
             </div>
         </div>
     </div>";
-            }} ?>
+            } ?>
 
         </div>
 

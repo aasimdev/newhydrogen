@@ -1,6 +1,12 @@
 <?php
 $videos = [
     [
+        'title' => "The best way to go about changing the world is to make it a better and safer place to live!",
+        'videoID' => "43rbZ319DH4",
+        'category' => "short-video",
+        "display" => true
+    ],
+    [
         'title' => "October 16, 2023 - Valerie Thomas - Georgia Tech",
         'videoID' => "DcKvQOTSxYs",
         'category' => "ceo-podcast",
@@ -66,67 +72,78 @@ $videos = [
         'title' => "The pioneers of green hydrogen power!",
         'videoID' => "1zw_BE6G_rw",
         'date' => "",
-        'category' => "short-video"
+         'category' => "short-video",
+        "display" => true
     ],
       [
         'title' => "We will provide the cleanest, cheapest hydrogen in the near future so that you can live sustainably!",
         'videoID' => "gjT91nqbPWI",
         'date' => "",
-        'category' => "short-video"
+         'category' => "short-video",
+        "display" => true
     ],
     [
         'title' => "Hydrogen is everywhere, both outside of our planet and inside of it.",
         'videoID' => "MilhwOj5Ess",
         'date' => "",
-        'category' => "short-video"
+         'category' => "short-video",
+        "display" => true
     ],
     [
         'title' => "The time for green hydrogen is now!",
         'videoID' => "nCC1XaFCf_U",
         'date' => "",
-        'category' => "short-video"
+         'category' => "short-video",
+        "display" => true
     ],
     [
         'title' => "Summer 2023 has been the hottest ever recorded!",
         'videoID' => "287dPw97T-w",
         'date' => "",
-        'category' => "short-video"
+         'category' => "short-video",
+        "display" => true
     ],
     [
         'title' => "Soon enough, we will be providing the world's cheapest hydrogen!",
         'videoID' => "9HweYPtjE_Y",
         'date' => "",
-        'category' => "short-video"
+         'category' => "short-video",
+        "display" => true
     ],
     [
         'title' => "Technologies that were once impossible are now in reach",
         'videoID' => "v4w_NqwFjqQ",
         'date' => "",
-        'category' => "short-video"
+         'category' => "short-video",
+        "display" => true
     ],
     [
         'title' => "This renewable energy source is becoming more and more popular, year after year.",
         'videoID' => "Q-zmtIhCtlk",
         'date' => "",
-        'category' => "short-video"
+         'category' => "short-video",
+        "display" => true
     ],
     [
         'title' => "Yes, solar and wind provide energy, but not as efficiently as hydrogen!",
         'videoID' => "mXT2Dy3b6Ck",
         'date' => "",
-        'category' => "short-video"
+        'category' => "short-video",
+        "display" => true
     ],
     [
         'title' => "Cheap green hydrogen is the energy of the future!",
         'videoID' => "ycMHaVr90kI",
         'date' => "",
-        'category' => "short-video"
+        'category' => "short-video",
+        "display" => true
     ],
     [
         'title' => "Let’s not wait ten years for green hydrogen to be affordable.",
         'videoID' => "BqWTYxX3Vnw",
         'date' => "",
-        'category' => "short-video"
+        'category' => "short-video",
+        "display" => true
     ],
     [
         'title' => "August 4, 2023 - A Catalyst for Decarbonization In An All-Electric World",

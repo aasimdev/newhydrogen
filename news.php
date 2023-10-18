@@ -47,7 +47,7 @@ include('header.php'); ?>
             <div class="row">
                 <?php
                 $filteredCommentaryNews = array_filter($videos, function ($item) {
-                    return $item['category'] === 'news-commentary';
+                    return $item['category'] === 'news-commentary' && $item['display'] === true;
                 });
                 $latestCompanyNews = array_slice($filteredCommentaryNews, 0, 3);
                 foreach ($latestCompanyNews as $video) {

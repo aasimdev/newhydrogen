@@ -73,7 +73,7 @@ include('header.php'); ?>
         <div class="row">
             <?php
             $filteredCommentaryNews = array_filter($videos, function ($item) {
-                return $item['category'] === 'news-commentary';
+                return $item['category'] === 'news-commentary' && $item['display'] === true;
             });
             $latestCompanyNews = array_slice($filteredCommentaryNews, 0, 3);
             foreach ($latestCompanyNews as $video) {
@@ -108,7 +108,7 @@ include('header.php'); ?>
         <div class="row">
             <?php
             $filteredCEOPodcast = array_filter($videos, function ($item) {
-                return $item['category'] === 'ceo-podcast';
+                return $item['category'] === 'ceo-podcast' && $item['display'] === true;
             });
             // $latestCEOPodcast = array_slice($filteredCEOPodcast, 0, 5);
             foreach ($filteredCEOPodcast as $video) {
@@ -119,8 +119,7 @@ include('header.php'); ?>
                 } else {
                     $link = "single-video.php?id=$videoID";
                 }
-                if ($video['display']) {
-                    echo "<div class=\"col-lg-4\">
+                echo "<div class=\"col-lg-4\">
                 <div class=\"catlatest-item\">
                     <div class=\"catlatest-thumbnail\">
                         <img src=\"//img.youtube.com/vi/{$video['videoID']}/maxresdefault.jpg\" alt=\"Thumbnail\">
@@ -133,12 +132,12 @@ include('header.php'); ?>
                     <h4>{$video['title']}</h4>
                 </div>
             </div>";
-                }
             }
             ?>
         </div>
     </div>
 </section>
+
 
 <section class="catlatest" id="short-videos">
     <div class="container">
@@ -151,7 +150,7 @@ include('header.php'); ?>
         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5">
             <?php
             $filteredShortVideos = array_filter($videos, function ($item) {
-                return $item['category'] === 'short-video';
+                return $item['category'] === 'short-video' && $item['display'] === true;
             });
             $latestShortVideos = array_slice($filteredShortVideos, 0, 5);
             foreach ($latestShortVideos as $video) {
@@ -185,5 +184,6 @@ include('header.php'); ?>
     </div>
 
 </div>
+
 <?php
 include('footer.php'); ?>

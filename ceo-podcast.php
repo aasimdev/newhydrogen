@@ -21,7 +21,7 @@ include('header.php'); ?>
         <div class="row">
             <?php
             $filteredCEOPodcast = array_filter($videos, function ($item) {
-                return $item['category'] === 'ceo-podcast';
+                return $item['category'] === 'ceo-podcast' && $item['display'] === true;
             });
             foreach ($filteredCEOPodcast as $video) {
                 $videoTitle = $video['title'];
@@ -31,8 +31,7 @@ include('header.php'); ?>
                 } else {
                     $link = "single-video.php?id=$videoID";
                 }
-                if ($video['display']) {
-                    echo "<div class=\"col-lg-4\">
+                echo "<div class=\"col-lg-4\">
                 <div class=\"podcast-item\">
                     <div class=\"podcast-item-thumbnail\"><img src=\"//img.youtube.com/vi/{$video['videoID']}/maxresdefault.jpg\" alt=\"Thumbnail\">
                     <svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64' fill='none'>
@@ -43,7 +42,6 @@ include('header.php'); ?>
                     <h2>{$video['title']}</h2>
                 </div>
                 </div>";
-                }
             }
             ?>
         </div>

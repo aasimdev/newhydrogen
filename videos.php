@@ -110,8 +110,8 @@ include('header.php'); ?>
             $filteredCEOPodcast = array_filter($videos, function ($item) {
                 return $item['category'] === 'ceo-podcast';
             });
-            $latestCEOPodcast = array_slice($filteredCEOPodcast, 0, 5);
-            foreach ($latestCEOPodcast as $video) {
+            // $latestCEOPodcast = array_slice($filteredCEOPodcast, 0, 5);
+            foreach ($filteredCEOPodcast as $video) {
                 $videoTitle = $video['title'];
                 $videoID = $video['videoID'];
                 if (stripos($videoTitle, "Naomi Boness") !== false) {

@@ -431,10 +431,7 @@
         margin-right: auto;
     }
 
-    .podcast .row>div:not(:first-child) .podcast-item {
-        margin-top: 90px;
-    }
-
+   
     .uce-text h3 {
         font-weight: 200;
         font-size: 132px;
@@ -1724,7 +1721,7 @@
 
     .podcast-item-thumbnail {
         height: 202px;
-        padding: 58px 42px 0;
+        padding: 0;
         margin-bottom: 28px;
     }
 
@@ -1735,11 +1732,6 @@
     }
 
 
-
-    .podcast .row>div:not(:first-child) .podcast-item,
-    .podcast .row>div:not(:first-child):not(:nth-child(2)) .podcast-item {
-        margin-top: 40px;
-    }
 
     .podcast-single {
         gap: 12px;

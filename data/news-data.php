@@ -2,7 +2,50 @@
 
 
 $news = [
-   
+    [
+        'id' => "44",
+        'title' => "NewHydrogen CEO Steve Hill Interviews Hydrogen Visionary Johannes Schwank ",
+        'date' => "October 11, 2023",
+        'excerpt' => "NewHydrogen, Inc. (OTCMKTS:NEWH), the developer of a breakthrough technology that uses clean energy and water to produce the world’s cheapest green hydrogen, today announced that in a recent podcast, the Company’s CEO, Steve Hill, spoke with Dr. Johannes Schwank, an eminent authority in physical chemistry and chemical engineering at the University of Michigan, about the future of hydrogen as an energy carrier […]
+        ",
+        'description' => [
+            [
+                "<p><strong>Dr. Johannes Schwank from the University of Michigan shares his optimism about the future of hydrogen as an energy carrier </strong></p>"
+            ],
+            [
+                "<p>SANTA CLARITA, Calif. (October 11, 2023) — NewHydrogen, Inc. (OTCMKTS:NEWH), the developer of a breakthrough technology that uses clean energy and water to produce the world’s cheapest green hydrogen, today announced that in a recent podcast, the Company’s CEO, Steve Hill, spoke with Dr. Johannes Schwank, an eminent authority in physical chemistry and chemical engineering at the University of Michigan, about the future of hydrogen as an energy carrier.  </p>"
+            ],
+            [
+                "<p>Dr. Schwank’s optimism radiated throughout the conversation. Reflecting on progress since his Congressional testimony in 2003, he noted, “The world is recognizing that we need to get our arms around hydrogen as an energy carrier. And, if I’m not mistaken, just in the last few years, about 20 different countries have finally caught on and developed a national hydrogen strategy.” </p>"
+            ],
+            [
+                "<p>After discussing the recent surge of interest in hydrogen, Dr. Schwank said, “I am extremely optimistic ... I think we may look back hopefully in 10, 20 years and see, there was just the beginning of the next major breakthrough.” </p>"
+            ],
+            [
+                "<p>The conversation turned to Dr. Schwank’s visionary REFRESCH program, which is focused on revolutionizing ammonia production with green hydrogen and renewable energy. Dr. Schwank said, “We have essentially now an opportunity to rethink to some extent our most carbon intensive industries, and in the chemical arena, of course, the production of ammonia, which is a key ingredient to fertilizer, is not only one of the most energy extensive industries. It’s also the industry that produces the most carbon dioxide emissions. By far, it dwarfs any other process,”  </p>"
+            ],
+            [
+                "<p>Dr. Schwank’s enthusiasm for the future was palpable, as he underscored the potential of the next generation, “I’m awed to see the creativity and also the passion that our young folks have for making the world a better place, and to have a mindset. I think that makes me extremely hopeful, because if we unleash all these creative minds on the wicked problems that our planet faces only good things can come from it.” 
+                </p>"
+            ],
+            [
+                "<p>Mr. Hill, concluded, “Dr. Schwank’s inspiring vision reaffirms that the green hydrogen revolution is not just inevitable; it’s a transformative force propelling us towards a sustainable future.” 
+                </p>"
+            ],
+            [
+                "<p>Dr. Johannes Schwank holds a Ph.D. in Physical Chemistry from Innsbruck University in Austria. He joined the University of Michigan faculty in 1980, where he rose through the ranks and became a Full Professor of Chemical Engineering in 1990. He served as Chairman of the Chemical Engineering Department from 1990 – 1995, as Interim Director of the University of Michigan Energy Institute 2011/2012, and as Director of EMAL (Electron Microbeam Analysis Laboratory), a campus-‐wide user facility 2013-‐2015. He holds the James and Judith Street Chair in Chemical Engineering. He is the Director of REFRESCH, an interdisciplinary project that deals with food, energy, and water security in resource–constrained environments. He serves as academic director of the Multidisciplinary Design Program (MDP). He developed several new courses, such as a chemical engineering economics course, a course focused on gas and oil technology, a course on repurposing waste plastic, and a course on alternative energy technologies taught at Chulalongkorn University in Thailand. Dr. Schwank is listed as a Google Scholar at <a href=\"https://scholar.google.com/citations?user=azs-5XkAAAAJ&hl=en\" target=\"_blank\">https://scholar.google.com/citations?user=azs-5XkAAAAJ&hl=en</a></p>"
+            ],
+            [
+                "<p>Watch the full discussion on the NewHydrogen Podcast featuring Dr. Johannes Schwank at <a href=\"https://newhydrogen.com/single-video.php?id=ywfKFPCIdHk\" target=\"_blank\"> https://newhydrogen.com/single-video.php?id=ywfKFPCIdHk.  </a>
+                </p>"
+            ],
+            [
+                "<p>For more information about NewHydrogen, please visit <a href=\"https://newhydrogen.com/\">https://newhydrogen.com/</a></p>"
+            ]
+        ],
+        'category' => "pressrelease",
+        'biosolar' => false
+    ],
     [
         'id' => "43",
         'title' => "NewHydrogen CEO Steve Hill Discusses Opportunities and Challenges of the Hydrogen Economy with Eugene Holubnya",
@@ -35,7 +78,7 @@ $news = [
                 task forces, representing Kansas and the region on CO2 transport infrastructure and policy issues. He is passionate about advancing the climate tech and carbon capture & storage industry and exploring the potential of advanced life support systems for space settlements. Mr. Holubnyak is listed as a Google Scholar at <a href=\"https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Naomi+Boness&btnG=\" target=\"_blank\">https://scholar.google.com/citations?user=lXWa29UAAAAJ&hl=</a></p>"
             ],
             [
-                "<p>This podcast can be viewed at <a href=\"https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Naomi+Boness&btnG=\" target=\"_blank\"> https://newhydrogen.com/single-video.php?id=luvHuNAWr7U</a>
+                "<p>This podcast can be viewed at <a href=\"https://newhydrogen.com/single-video.php?id=luvHuNAWr7U\" target=\"_blank\"> https://newhydrogen.com/single-video.php?id=luvHuNAWr7U</a>
                 </p>"
             ],
             [

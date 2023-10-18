@@ -2460,6 +2460,11 @@
     }
 
     .row {
+        row-gap: 40px;
+        @media (min-width: 768px) {
+            row-gap: 90px;
+        }
+
         &>div {
             &:nth-child(even) {
                 .podcast-item {
@@ -2467,11 +2472,11 @@
                 }
             }
 
-            &:not(:first-child):not(:nth-child(2)) {
-                .podcast-item {
-                    margin-top: 90px;
-                }
-            }
+            // &:not(:first-child):not(:nth-child(2)) {
+            //     .podcast-item {
+            //         margin-top: 90px;
+            //     }
+            // }
         }
     }
 
@@ -5177,9 +5182,11 @@
     max-width: 700px;
 
     margin: 0 auto 70px;
-    &-thumbnail{
+
+    &-thumbnail {
         position: relative;
     }
+
     svg {
         position: absolute;
         left: 50%;

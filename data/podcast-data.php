@@ -1,6 +1,30 @@
 <?php
 $videos = [
     [
+        'title' => "October 16, 2023 - Valerie Thomas - Georgia Tech",
+        'videoID' => "DcKvQOTSxYs",
+        'category' => "ceo-podcast",
+        "display" => false
+    ],
+    [
+        'title' => "October 10, 2023 - Killing the Colors of Hydrogen",
+        'videoID' => "b_C140ZgMM4",
+        'category' => "news-commentary",
+        "display" => true
+    ],
+    [
+        'title' => "October 9, 2023 - Johannes Schwank - University of Michigan",
+        'videoID' => "ywfKFPCIdHk",
+        'category' => "ceo-podcast",
+        "display" => true
+    ],
+    [
+        'title' => "September 28, 2023 - Dr. Pradeep Haldar - University of South Florida",
+        'videoID' => "YpCaGT-V1FA",
+        'category' => "ceo-podcast",
+        "display" => false
+    ],
+    [
         'title' => "September 25, 2023 - Dr. Mohamed F. Sanad Noufal - Hampton University",
         'videoID' => "at3pL6ooXCo",
         'category' => "ceo-podcast",
@@ -10,7 +34,7 @@ $videos = [
         'title' => "August 30, 2023 - Eugene Holubnyak - Hydrogen Energy Research Center",
         'videoID' => "luvHuNAWr7U",
         'category' => "ceo-podcast",
-        "display" => true
+        "display" => false
     ],
     [
         'title' => "September 22, 2023 - Dr. Chengzhang Wan - UCLA",

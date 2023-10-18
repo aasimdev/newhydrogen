@@ -139,7 +139,7 @@ include('header.php'); ?>
                 $link = "https://www.youtube.com/watch?v=$videoID";
                 $class = 'popup-youtube';
             }
-          
+
             if ($video['category'] !== 'short-video' && $video['display']) {
                 echo "<div class=\"dp-carousel-item\">
                 <div class=\"podcast-item\">

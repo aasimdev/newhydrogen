@@ -23,6 +23,12 @@
     <title><?php echo $title; ?></title>
     <link rel="icon" type="image/png" href="./assets/img/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content=<? echo $title; ?>>
+    <meta property="og:description" content="NewHydrogen is developing a breakthrough technology that uses inexpensive heat instead of expensive electricity to split water to produce hydrogen.">
+    <meta property="og:image" content="./assets/img/logo-dark.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="NewHydrogen">
+    <meta property="og:locale" content="en_US">
     <!-- <link rel="stylesheet" href="./assets/css/slick.min.css">
     <link rel="stylesheet" href="./assets/css/slick-theme.min.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
@@ -33,9 +39,11 @@
     <!-- Google Recaptcha -->
     <script src="https://www.google.com/recaptcha/api.js?render=6LeWVeAnAAAAAIOw4s89h2pgbDVHZ0M7IzALAcXE"></script>
     <script>
-        grecaptcha.ready(function(){
+        grecaptcha.ready(function() {
             console.log('no error');
-            grecaptcha.execute("6LeWVeAnAAAAAIOw4s89h2pgbDVHZ0M7IzALAcXE" , {action: "submit"}).then(function(token){
+            grecaptcha.execute("6LeWVeAnAAAAAIOw4s89h2pgbDVHZ0M7IzALAcXE", {
+                action: "submit"
+            }).then(function(token) {
                 var recaptchaResponse = document.getElementById('recaptchaResponse');
                 recaptchaResponse.value = token;
             })

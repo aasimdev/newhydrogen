@@ -25,7 +25,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content=<? echo $title; ?>>
     <meta property="og:description" content="NewHydrogen is developing a breakthrough technology that uses inexpensive heat instead of expensive electricity to split water to produce hydrogen.">
-    <meta property="og:image" content="./assets/img/logo-dark.png">
+    <meta property="og:image" content="./assets/img/logo-og.png">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="NewHydrogen">
     <meta property="og:locale" content="en_US">

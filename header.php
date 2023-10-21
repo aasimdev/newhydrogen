@@ -23,7 +23,7 @@
     <title><?php echo $title; ?></title>
     <link rel="icon" type="image/png" href="./assets/img/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content=<? echo $title; ?>>
+    <meta property="og:title" content="<? echo $title; ?>">
     <meta property="og:description" content="NewHydrogen is developing a breakthrough technology that uses inexpensive heat instead of expensive electricity to split water to produce hydrogen.">
     <meta property="og:image" content="./assets/img/logo-og.png">
     <meta property="og:type" content="website">
@@ -66,13 +66,22 @@
         }
     }
     ?>
-
     <div class="invest-bar">
         <div class="container">
-            <div class="tSocial">
-                <a href="https://www.facebook.com/NewHydrogen/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com/newhydrogen/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.youtube.com/@NewHydrogenEnergy" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+            <div class="invest-bar-content">
+                <div class="invest-bar-text">
+                    <div class="invest-bar-text-wrap">
+                        <p>Stock Symbol: NEWH</p>
+                        <a href="investors.php">
+                            Learn more
+                        </a>
+                    </div>
+                </div>
+                <div class="tSocial d-none d-lg-flex">
+                    <a href="https://www.facebook.com/NewHydrogen/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/newhydrogen/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@NewHydrogenEnergy" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                </div>
             </div>
         </div>
     </div>

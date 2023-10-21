@@ -2461,6 +2461,7 @@
 
     .row {
         row-gap: 40px;
+
         @media (min-width: 768px) {
             row-gap: 90px;
         }
@@ -4575,13 +4576,21 @@
 
     h4 {
         color: #EFEFEF;
-        font-size: 80px;
+        font-size: 70px;
         font-style: normal;
         font-weight: 400;
         line-height: 120%;
         text-align: center;
         /* 42px */
-        margin-bottom: 50px;
+        margin-bottom: 146px;
+
+        span {
+            display: block;
+            // Electrolyzers
+            color: white;
+            font-size: 35px;
+            font-weight: 400;
+        }
 
     }
 
@@ -4629,8 +4638,8 @@
 
 
 .pb-advantage {
-    background: url(../img/electro-advantages-bg2.jpg) no-repeat center / cover;
-    height: 537px;
+    // background: url(../img/electro-advantages-bg2.jpg) no-repeat center / cover;
+    // height: 537px;
     position: relative;
     display: flex;
     align-items: end;
@@ -4710,7 +4719,7 @@
             content: "";
             width: 8px;
             height: 8px;
-            background: #fff;
+            background: #EFEFEF;
             top: 50%;
             border-radius: 50%;
             position: absolute;
@@ -4726,6 +4735,24 @@
         font-weight: 500;
         line-height: 150%;
         /* 22.5px */
+    }
+}
+
+.pb-main {
+    &.bg-white {
+        .pb-dis-point {
+            h5 {
+                color: #000;
+
+                &::before {
+                    background: #000;
+                }
+            }
+
+            p {
+                color: #000;
+            }
+        }
     }
 }
 
@@ -4817,12 +4844,12 @@
     padding-top: 40px;
 
     &-wrap {
-        padding: 84px 110px 62px;
+        // padding: 84px 110px 62px;
 
-        border-radius: 20px;
-        border: 1px solid #CBCBCB;
+        // border-radius: 20px;
+        // border: 1px solid #CBCBCB;
         text-align: center;
-        margin-bottom: 206px;
+        margin-bottom: 142px;
     }
 
     h3 {
@@ -4833,7 +4860,7 @@
         font-weight: 400;
         line-height: 120%;
         /* 42px */
-        margin-bottom: 146px;
+        margin-bottom: 88px;
     }
 
 }

@@ -51,8 +51,7 @@ include('header.php'); ?>
                         <a href="https://www.youtube.com/watch?v=KulBiMqevu4" class="popup-youtube">
                             <img src="./assets/img/disruptive-video-thumbnail.png" alt="thumbnail">
                             <div class="disruptive-video-btn">
-                                <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
+                                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="32" cy="32" r="32" fill="#4fe653" />
                                     <path d="M38 32.5L27 39L27 26L38 32.5Z" fill="black" />
                                 </svg>
@@ -145,7 +144,7 @@ include('header.php'); ?>
 
     <div class="pb-electro">
         <div class="container">
-            <h4>The Problem - Electrolyzers</h4>
+            <h4>The Problem <span>Electrolyzers</span></h4>
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="pb-electro-content">
@@ -208,29 +207,24 @@ include('header.php'); ?>
             </div>
         </div>
     </div>
-</section>
 
-
-<section class="dis-quote pt-0">
-    <div class="container">
+    <div class="dis-quote pt-0">
         <div class="dis-quote-wrap">
-            <p>The biggest problem with electrolyzers is the use of electricity, which accounts for nearly 73% of the
-                cost of Hydrogen production.
-
-
-            </p>
+            <p class="text-white">The biggest problem with electrolyzers is the use of electricity, which accounts for nearly 73% of the
+                cost of Hydrogen production.</p>
             <span>
                 Oxford Institute for Energy Studies (2022)</span>
         </div>
     </div>
 </section>
 
+
 <section class="ucsb-work ucsanta">
     <div class="container">
         <div class="ucsb-work-wrap">
-            
-        <h4>The Solution –
-                            Using Heat Instead of Electricity Is a Better Way</h4>
+
+            <h4>The Solution –
+                Using Heat Instead of Electricity Is a Better Way</h4>
             <div class="row align-items-center">
                 <div class="col-md-7">
                     <div class="ucsb-work-content">
@@ -247,6 +241,8 @@ include('header.php'); ?>
         </div>
     </div>
 </section>
+
+
 
 <section class="dis-therma">
     <div class="container">
@@ -310,7 +306,7 @@ include('header.php'); ?>
         </div>
     </div>
 </section>
-<section class="pb-main">
+<section class="pb-main bg-white">
     <div class="pb-advantage">
         <div class="container">
             <div class="pb-advantage-content">
@@ -372,7 +368,7 @@ include('header.php'); ?>
 
 <section class="thermoloop-belectro">
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="thermoloop-belectro-content">
                     <h4>NewHydrogen ThermoLoop™ A Better Form of Electrolyzer</h4>
@@ -418,7 +414,7 @@ include('header.php'); ?>
                     physics. UCSB boasts 6 Nobel Laureates (five in sciences and engineering) and one winner of the
                     prestigious Millennium Technology Prize. According to Times Higher
                     Education's 2021 World University Rankings, UCSB is ranked top 2 percent of the engineering programs
-                    in the world in overall excellence, research influence, and innovation. <br><br> The ThermoLoop technology is currently in its early development stage.  In June 2023, we entereded into a sponsored research agreement with the University of California Santa Barbara (UCSB) to perform this research and development work. During the term of the agreement, we have rights to negotiate an option or license to all resulting intellectual property and related technology.</p>
+                    in the world in overall excellence, research influence, and innovation. <br><br> The ThermoLoop technology is currently in its early development stage. In June 2023, we entereded into a sponsored research agreement with the University of California Santa Barbara (UCSB) to perform this research and development work. During the term of the agreement, we have rights to negotiate an option or license to all resulting intellectual property and related technology.</p>
             </div>
         </div>
         <div class="ucsb-team-wrap">
@@ -440,20 +436,20 @@ include('header.php'); ?>
                         Profile</a>
                 </div>
             </div>
-                <div class="ucsb-team-content">
-                    <div class="ucsb-team-face">
-                        <img src="./assets/img/erix.png" alt="team">
-                    </div>
-                    <div class="ucsb-team-text">
-                        <h5>Eric McFarland, PhD</h5>
-                        <ul class="dot-list">
-                            <li>Co-Principal Investigator</li>
-                        </ul>
-                        <a href="https://chemengr.ucsb.edu/people/eric-mcfarland" target="_blank">UCSB Faculty
-                            Profile</a>
-                    </div>
-
+            <div class="ucsb-team-content">
+                <div class="ucsb-team-face">
+                    <img src="./assets/img/erix.png" alt="team">
                 </div>
+                <div class="ucsb-team-text">
+                    <h5>Eric McFarland, PhD</h5>
+                    <ul class="dot-list">
+                        <li>Co-Principal Investigator</li>
+                    </ul>
+                    <a href="https://chemengr.ucsb.edu/people/eric-mcfarland" target="_blank">UCSB Faculty
+                        Profile</a>
+                </div>
+
+            </div>
             <div class="ucsb-team-content">
                 <div class="ucsb-team-face">
                     <img src="./assets/img/rajan-singh.png" alt="team">

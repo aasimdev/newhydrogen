@@ -206,90 +206,61 @@ include('header.php'); ?>
                     waiting around to be zapped, resulting in low efficiency and low throughput.</p>
             </div>
         </div>
-    </div>
-
-    <div class="dis-quote pt-0">
-        <div class="dis-quote-wrap">
-            <p class="text-white">The biggest problem with electrolyzers is the use of electricity, which accounts for nearly 73% of the
-                cost of Hydrogen production.</p>
-            <span>
-                Oxford Institute for Energy Studies (2022)</span>
+        <div class="dis-quote pt-0">
+            <div class="dis-quote-wrap">
+                <p class="text-white">The biggest problem with electrolyzers is the use of electricity, which accounts for nearly 73% of the
+                    cost of Hydrogen production.</p>
+                <span>
+                    Oxford Institute for Energy Studies (2022)</span>
+            </div>
         </div>
     </div>
+
+
 </section>
 
 
 <section class="ucsb-work ucsanta">
     <div class="container">
         <div class="ucsb-work-wrap">
-
-            <h4>The Solution –
-                Using Heat Instead of Electricity Is a Better Way</h4>
+            <h4>The Solution
+                <span>Using Heat Instead of Electricity Is a Better Way</span>
+            </h4>
             <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="ucsb-work-img text-center d-none d-md-block">
+                        <img src="./assets/img/dis-solution-left-desktop.png" alt="ucsb">
+                    </div>
+                </div>
                 <div class="col-md-7">
                     <div class="ucsb-work-content">
-
-                        <p>Working with a team of world-class chemical and materials engineers at UC Santa Barbara (UCSB), we are developing a better way to efficiently split water into cheap green hydrogen with a thermochemical approach, using heat instead of electricity. The UCSB team plans to exploit the oxidation reduction features of multi-component materials including high temperature liquids to directly split water continuously in a series of chemical looping reactions, producing hydrogen and oxygen in separate reaction chambers. The concept has been at work in other applications for some time at UCSB and we decided to sponsor research to apply the methodology to water splitting.</p>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="ucsb-work-img text-center">
-                        <img src="./assets/img/uc-banta.png" alt="ucsb">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section class="dis-therma">
-    <div class="container">
-        <div class="dis-therma-wrap">
-            <div class="row align-items-center">
-                <div class="col-md-7">
-                    <div class="dis-therma-content">
-                        <p>It is known that water spontaneously splits into hydrogen and
-                            oxygen at temperatures in excess of 2,500°C with near 100%
-                            efficiency. However, such temperatures are not easily
-                            achievable or manageable. Despite its alluring efficiency, there
-                            are currently no thermochemical water splitting hydrogen
-                            production systems working at large production scale, only
-                            small and lab scale.</p>
-                    </div>
-
-                </div>
-                <div class="col-md-5">
-                    <div class="dis-therma-box">
-                        <p>2500&deg; C</p>
-                        <span>Needed Naturally</span>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-md-7">
-
-                    <div class="dis-therma-content">
-                        <p>The UCSB team is developing a breakthrough technology to
-                            exploit the features of a Molten Catalytic Liquid to directly
-                            split water continuously in a single redox chemical loop, to
-                            produce hydrogen and oxygen in separate chambers. Our
-                            novel Molten Catalytic Liquid is reduced in one chamber,
-                            oxidized in another chamber, and is continuously recycled
-                            and reused. The only inputs are heat and water. This will be
-                            a novel, first of its kind, high efficiency thermochemical
-                            water-splitter that uses low cost common materials and common industrial temperatures of
-                            less than 1,000<sup>o</sup>C, to potentially produce <span>the world’s cheapest green hydrogen</span>.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="dis-therma-box">
-                        <span class="text-center">Our Goal is Direct Thermochemical <br>
-                            Water Splitting a</span>
-                        <p>&lt;1000&deg; C</p>
-
+                        <div class="ucsanta-textbox">
+                            <img src="./assets/img/ucsb-mobile.png" class="d-md-none" alt="ucsb">
+                            <p>Working with a team of world-class chemical and materials engineers at UC Santa Barbara (UCSB), we are developing a better way to efficiently split water into cheap green hydrogen with a thermochemical approach, using heat instead of electricity. The UCSB team plans to exploit the oxidation reduction features of multi-component materials including high temperature liquids to directly split water continuously in a series of chemical looping reactions, producing hydrogen and oxygen in separate reaction chambers. The concept has been at work in other applications for some time at UCSB and we decided to sponsor research to apply the methodology to water splitting.</p>
+                        </div>
+                        <div class="ucsanta-textbox">
+                            <img src="./assets/img/needed-natrally.png" class="d-md-none" alt="ucsb">
+                            <p>It is known that water spontaneously splits into hydrogen and
+                                oxygen at temperatures in excess of 2,500°C with near 100%
+                                efficiency. However, such temperatures are not easily
+                                achievable or manageable. Despite its alluring efficiency, there
+                                are currently no thermochemical water splitting hydrogen
+                                production systems working at large production scale, only
+                                small and lab scale.</p>
+                        </div>
+                        <div class="ucsanta-textbox">
+                            <img src="./assets/img/goal-mobile.png" class="d-md-none" alt="ucsb">
+                            <p>The UCSB team is developing a breakthrough technology to
+                                exploit the features of a Molten Catalytic Liquid to directly split
+                                water continuously in a single redox chemical loop, to produce
+                                hydrogen and oxygen in separate chambers. Our novel Molten
+                                Catalytic Liquid is reduced in one chamber, oxidized in another
+                                chamber, and is continuously recycled and reused. The only
+                                inputs are heat and water. This will be a novel, first of its kind,
+                                high efficiency thermochemical water-splitter that uses low
+                                cost common materials and common industrial temperatures of
+                                less than 1,000oC, to potentially produce the world’s cheapest green hydrogen.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -306,7 +277,7 @@ include('header.php'); ?>
         </div>
     </div>
 </section>
-<section class="pb-main bg-white">
+<section class="pb-main bg-white listmain-nob">
     <div class="pb-advantage">
         <div class="container">
             <div class="pb-advantage-content">

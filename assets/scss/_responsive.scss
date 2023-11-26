@@ -142,7 +142,7 @@
     }
 
     .ucsb-work.ucsanta .ucsb-work-wrap h4 {
-        font-size: 32px;
+        font-size: 52px;
     }
 }
 
@@ -823,6 +823,11 @@
         flex-direction: column;
         align-items: center;
         gap: 58px;
+        h4{
+            br{
+                display: none;
+            }
+        }
     }
 
     .disNew-hope-content {
@@ -848,13 +853,20 @@
 
     .ucsb-work.ucsanta .ucsb-work-wrap {
         padding-bottom: 24px;
-        border-bottom: 1px solid #cbcbcb;
     }
 
     .ucsb-work.ucsanta {
         padding-bottom: 48px;
+        padding-top: 0;
     }
-
+    .ucsb-work.ucsanta .ucsb-work-content{
+        padding-left: 0;
+    }
+    .ucsanta-textbox{
+        img{
+            margin-bottom: 20px;
+        }
+    }
     .dis-therma-box {
         max-width: 254px;
         min-height: 118px;
@@ -1126,6 +1138,7 @@
 
     .pb-electro h4 {
         font-size: 37px;
+        margin-bottom: 48px;
     }
 
     .dis-impact h4 {
@@ -1968,6 +1981,9 @@
 
         .pb-dis-point {
             margin-bottom: 49px;
+            &:last-of-type{
+                margin-bottom: 0;
+            }
         }
 
         h5 {
@@ -1993,16 +2009,24 @@
     }
 
     .ucsb-work.ucsanta .ucsb-work-wrap h4 {
-        text-align: start;
         margin-bottom: 40px;
-        font-size: 32px;
+        font-size: 40px;
+        max-width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        span{
+            font-size: 18px;
+            line-height: 23.40px;
+        }
     }
 
     .ucsb-work.ucsanta .ucsb-work-content {
         margin: auto;
-        margin-bottom: 48px;
+        margin-bottom: 0;
     }
-
+    .ucsanta-textbox img {
+        margin-left: -12px;
+    }
     .dis-therma-content {
         margin: auto;
     }
@@ -2012,7 +2036,6 @@
 
         .ucsb-work-wrap {
             padding-bottom: 24px;
-            border-bottom: 1px solid #CBCBCB;
         }
     }
 
@@ -2265,6 +2288,7 @@
 
     .ucsb-team {
         padding-bottom: 72px;
+        padding-top: 100px;
     }
 
     .di-main {
@@ -2881,5 +2905,8 @@
 
     .invest-bar-text p {
         font-size: 18px;
+    }
+    .listmain-nob{
+        margin-bottom: 0;
     }
 }

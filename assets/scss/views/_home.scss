@@ -4477,21 +4477,34 @@
 
     &.ucsanta {
         padding-bottom: 55px;
-
+        padding-top: 80px;
         .ucsb-work-wrap {
             max-width: 1048px;
 
             h4 {
                 color: #000;
                 margin-bottom: 113px;
+                font-size: 70px;
+                font-weight: 400;
+                text-align: center;
+
+                span {
+                    font-size: 35px;
+                    display: block;
+                }
             }
 
         }
 
         .ucsb-work-content {
-            max-width: 444px;
+            max-width: 500px;
+            padding-left: 84px;
 
-
+            .ucsanta-textbox {
+                &+.ucsanta-textbox {
+                    margin-top: 40px;
+                }
+            }
         }
 
     }

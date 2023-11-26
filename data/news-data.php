@@ -3,6 +3,142 @@
 
 $news = [
     [
+        'id' => "47",
+        'title' => "NewHydrogen CEO Steve Hill Discusses Advancements in Sustainable Hydrogen Catalysts with Hampton University Energy Expert ",
+        'date' => "November 21, 2023",
+        'excerpt' => "NewHydrogen, Inc. (OTCMKTS:NEWH), the developer of a breakthrough technology that uses clean energy and water to produce the world’s cheapest green hydrogen, today announced that in a recent podcast the Company’s CEO Steve Hill spoke with Hampton University's Chair and Professor of Chemical Engineering, Dr. Mohamed Sanad Noufal regarding catalyst research, sustainable hydrogen production, and the path to affordable, clean energy solutions […]
+        ",
+        'description' => [
+            [
+                "<p><strong>Dr. Mohamed Noufal elaborates on reproducible catalysts, green hydrogen, and affordable clean energy </strong></p>"
+            ],
+            [
+                "<p>SANTA CLARITA, Calif. (November 21, 2023) — NewHydrogen, Inc. (OTCMKTS:NEWH), the developer of a breakthrough technology that uses clean energy and water to produce the world’s cheapest green hydrogen, today announced that in a recent podcast the Company’s CEO Steve Hill spoke with Hampton University's Chair and Professor of Chemical Engineering, Dr. Mohamed Sanad Noufal regarding catalyst research, sustainable hydrogen production, and the path to affordable, clean energy solutions.  </p>"
+            ],
+            [
+                "<p>Dr. Noufal emphasized the pivotal role of catalysts in addressing global energy challenges, emphasizing the need for a fundamental understanding of their processes. \"If we can't truly understand this process at a fundamental level, we might not be able to solve the energy crisis problem,\" he commented.  </p>"
+            ],
+            [
+                "<p>Dr. Noufal's research primarily centers on developing reproducible, cost-effective catalysts for hydrogen and oxygen electrochemical reactions. He stressed the significance of reproducibility, stating, \"I prefer to pay more attention to the reproducibility of catalysts. Reproducibility is imperative for commercial production of catalyst with consistent catalytic properties.”   </p>"
+            ],
+            [
+                "<p>Dr. Noufal said, “The overarching goal of our research is to reduce the cost of hydrogen production, a crucial element in driving sustainability. By collaborating with partners in the United States and abroad, we are on track to transition these catalysts into practical applications.”  </p>"
+            ],
+            [
+                "<p>One distinctive aspect of his work is the utilization of graphene-based catalysts, renowned for their unique properties and enhanced conductivity. These catalysts promise to enhance the efficiency of hydrogen and oxygen electrochemical reactions, a vital component of sustainable energy production. </p>"
+            ],
+            [
+                "<p>Dr. Noufal's efforts extend beyond laboratory research as he actively collaborates with industry partners, offering the potential for commercialization and widespread use of these innovative catalysts. His commitment to developing sustainable catalysts that combine efficiency with reproducibility is poised to revolutionize hydrogen production and fuel cell conversion.    </p>"
+            ],
+            [
+                "<p>The discussion also delved into the potential of green hydrogen as a tool for decarbonizing various industries and the need to reduce production costs to reach the Earth shot initiative's goal of $1 per kilogram of hydrogen. Dr. Noufal mentioned his research on hydrogen's role in space and his project to create an efficient catalyst by combining machine learning, DFT calculations, and experimental design.  </p>"
+            ],
+            [
+                "<p>Dr. Noufal received a PhD in Environmental sciences and Engineering from the University of Texas at El Paso.  </p>"
+            ],
+            [
+                "<p>Watch the full discussion on the NewHydrogen Podcast featuring Dr. Noufal at <a href=\"https://newhydrogen.com/single-video.php?id=at3pL6ooXCo\" target=\"_blank\">https://newhydrogen.com/single-video.php?id=at3pL6ooXCo</a> </p>"
+            ],
+            [
+                "<p>For more information about NewHydrogen, please visit <a href=\"https://newhydrogen.com/\">https://newhydrogen.com/</a></p>"
+            ]
+        ],
+        'category' => "pressrelease",
+        'biosolar' => false
+    ],
+    [
+        'id' => "46",
+        'title' => "NewHydrogen CEO Steve Hill Discusses Fuel Cell and Battery Electric Vehicles with Former California EPA Official ",
+        'date' => "November 7, 2023",
+        'excerpt' => "NewHydrogen, Inc. (OTCMKTS:NEWH), the developer of a breakthrough technology that uses clean energy and water to produce the world’s cheapest green hydrogen, today announced that in a recent podcast the Company’s CEO Steve Hill spoke with Dr. Alan Lloyd, former Secretary for the California EPA […]
+        ",
+        'description' => [
+            [
+                "<p><strong>Dr. Alan Lloyd maintains that California's regulations were instrumental in shaping the development of fuel cell technology. </strong></p>"
+            ],
+            [
+                "<p>SANTA CLARITA, Calif. (November 7, 2023) — NewHydrogen, Inc. (OTCMKTS:NEWH), the developer of a breakthrough technology that uses clean energy and water to produce the world’s cheapest green hydrogen, today announced that in a recent podcast the Company’s CEO Steve Hill spoke with Dr. Alan Lloyd, former Secretary for the California EPA.  </p>"
+            ],
+            [
+                "<p>During the conversation, Dr. Lloyd explained that California's initiative to require zero-emission vehicles started in the early 90s to tackle public health issues caused by car and truck emissions. Initially, automakers were resistant to this mandate, but over time, advancements in battery technology and fuel cell vehicles allowed them to meet the requirement. Dr. Lloyd also pointed out that California's regulations were instrumental in shaping the development of fuel cell technology.   </p>"
+            ],
+            [
+                "<p>Dr. Lloyd and Mr. Hill discussed the history and development of emission-free vehicles. Dr. Lloyd said, “The regulation for emission-free vehicles initially led to the use of batteries and fuel cells, with the latter being more expensive. As the industry evolved, the lithium-ion battery provided a significant boost to the battery-electric vehicle. While the fuel cell vehicle development has been slower, it is also gaining traction.”  </p>"
+            ],
+            [
+                "<p>Dr. Lloyd commented on the history and current state of fuel cell and battery vehicles, particularly in relation to California's efforts to support their development. Dr. Lloyd said, “California's support, including a partnership between regulators, car companies, and energy companies, played a crucial role in overcoming the chicken-and-egg problem of refueling infrastructure and vehicle availability.” However, he also acknowledged the challenge of building the necessary infrastructure, with hundreds of millions of dollars needed for its development and touched on the relative popularity of electric vehicles compared to hydrogen fuel cell vehicles, noting the greater number of electric vehicle charging stations currently in operation.  </p>"
+            ],
+            [
+                "<p>About challenges and opportunities related to alternative fuel sources, particularly hydrogen and electric vehicles, Dr. Lloyd noted the benefits of hydrogen for long-haul transportation and industrial processes, but also acknowledged the difficulties of distributing hydrogen infrastructure. He emphasized the importance of the zero-emission mandate in motivating industry advancements, but also noted the cost and performance challenges.  
+
+ 
+                </p>"
+            ],
+            [
+                "<p>Mr. Hill concluded, “In addition to the public policies which have been instrumental in shaping the development of hydrogen economy, we acknowledge the importance of further advancements in cheap green hydrogen production technology that will help complete the transition to sustainable hydrogen economy.”    </p>"
+            ],
+            [
+                "<p>Dr. Lloyd holds a Ph.D. in Chemistry from the University of Wales Aberystwyth. Dr. Lloyd previously served as Secretary of California Environmental Protection Agency (Cal EPA) and Chairman of the California Air Resources Board (CARB). He is president emeritus of the International Council on Clean Technologies (ICCT) and a member and Chair of the DOE Hydrogen and Fuel Cell Technical Advisory Committee (HTAC and its predecessor, HTAPP).   </p>"
+            ],
+            [
+                "<p>Watch the full discussion on the NewHydrogen Podcast featuring Dr. Alan Lloyd at <a href=\"https://newhydrogen.com/single-video.php?id=eNg6arNE7S0\" target=\"_blank\">https://newhydrogen.com/single-video.php?id=eNg6arNE7S0</a> </p>"
+            ],
+            [
+                "<p>For more information about NewHydrogen, please visit <a href=\"https://newhydrogen.com/\">https://newhydrogen.com/</a></p>"
+            ]
+        ],
+        'category' => "pressrelease",
+        'biosolar' => false
+    ],
+    [
+        'id' => "45",
+        'title' => "NewHydrogen CEO Steve Hill Discusses Green Hydrogen Catalyst Breakthrough with UCLA Researcher",
+        'date' => "October 24, 2023",
+        'excerpt' => "NewHydrogen, Inc. (OTCMKTS:NEWH), the developer of a breakthrough technology that uses clean energy and water to produce the world’s cheapest green hydrogen, today announced that in a recent podcast the Company’s CEO Steve Hill spoke with Dr. Chengzhang Wan, a key research member of the Company’s sponsored research program at UCLA […]
+        ",
+        'description' => [
+            [
+                "<p><strong>Dr. Chengzhang Wan reveals performance data and comments about efficiency and durability advancements which signal a greener future for hydrogen technology </strong></p>"
+            ],
+            [
+                "<p>SANTA CLARITA, Calif. (October 24, 2023) — NewHydrogen, Inc. (OTCMKTS:NEWH), the developer of a breakthrough technology that uses clean energy and water to produce the world’s cheapest green hydrogen, today announced that in a recent podcast the Company’s CEO Steve Hill spoke with Dr. Chengzhang Wan, a key research member of the Company’s sponsored research program at UCLA.</p>"
+            ],
+            [
+                "<p>During the conversation, Dr. Wan revealed that UCLA’s breakthrough in improving hydrogen production rates using a new catalyst structure is up to 100 times faster in alkaline conditions than commercial platinum carbon. The discussion also focused on the importance of catalyst durability and the team's work on making catalysts last longer. The findings were published in a recent Nature Materials article titled, “Amorphous nickel hydroxide shell tailors local chemical environment on platinum surface for alkaline hydrogen evolution reaction”. The article was authored by Dr. Wan and coauthors including Dr. Yu Huang, the principal investigator.  </p>"
+            ],
+            [
+                "<p>“Longevity is more crucial than activity in hydrogen catalysts,” said Dr. Wan. “Our research focuses on finding ways to make catalysts last much longer than platinum carbon. We have created an amorphous nickel hydroxide shell around the platinum core to increase the supply rate of hydrogen, thereby enhancing the catalytic reaction. This protective shell around the platinum extends the material's durability by protecting it from dissolution, surface atom migration, and attacks from impurities in the electrolyte.”  </p>"
+            ],
+            [
+                "<p>However, Dr. Wan’s research is not just about longevity, but also about activity, thus contributing to the overall efficiency and performance of the cell. The significance of this research is yet to be fully realized, but it could potentially make cells last longer, be cheaper to produce, and enhance their overall efficiency. </p>"
+            ],
+            [
+                "<p>Dr. Wan stressed the importance of hydrogen in various industries and production processes, including ammonia production, refining, and more. He also discussed the issue of carbon dioxide emissions resulting from traditional hydrogen production methods, urging the need for sustainable alternatives.  
+                </p>"
+            ],
+            [
+                "<p>Mr. Hill and Dr. Wan discussed the importance of reducing costs in electrolyzer components and improving their longevity. Dr. Wan highlighted the potential of using seawater as a feedstock for electrolyzers, which could significantly reduce costs and make the process more sustainable. However, he explained that seawater electrolyzers are not yet stable or active enough for commercial use, although research is ongoing.                  </p>"
+            ],
+            [
+                "<p>Dr. Wan said, “A new method of production had been successfully experimented in lab scale, and our team is now focusing on developing the anode, particularly exploring the use of transition metal-based catalysts for lower cost and comparable activity and durability to iridium. We are also addressing engineering issues, such as incorporating the anode, cathode, and membrane into a full-scale system.” Despite the challenges, he expressed optimism about the promising future of their work.   </p>"
+            ],
+            [
+                "<p>Mr. Hill concluded, “We acknowledge the significant jump from lab-scale to industrial-scale production, and the challenges that come with it. However, we are excited about the potential of this technology to fuel various sectors globally, using different feedstocks.”   </p>"
+            ],
+            [
+                "<p>Dr. Wan holds a Ph.D. in Inorganic Chemistry from the University of California at Los Angeles. He is listed as a Google Scholar at <a href=\"https://scholar.google.com/citations?hl=en&user=WHf7VvEAAAAJ\" target=\"_blank\">https://scholar.google.com/citations?hl=en&user=WHf7VvEAAAAJ</a></p>"
+            ],
+            [
+                "<p>Watch the full discussion on the NewHydrogen Podcast featuring Dr. Chengzhang Wan at <a href=\"https://newhydrogen.com/single-video.php?id=ugybxCsUKa8\" target=\"_blank\">https://newhydrogen.com/single-video.php?id=ugybxCsUKa8</a> </p>"
+            ],
+            [
+                "<p>For more information about NewHydrogen, please visit <a href=\"https://newhydrogen.com/\">https://newhydrogen.com/</a></p>"
+            ]
+        ],
+        'category' => "pressrelease",
+        'biosolar' => false
+    ],
+    [
         'id' => "44",
         'title' => "NewHydrogen CEO Steve Hill Interviews Hydrogen Visionary Johannes Schwank ",
         'date' => "October 11, 2023",
@@ -48,7 +184,7 @@ $news = [
     ],
     [
         'id' => "43",
-        'title' => "NewHydrogen CEO Steve Hill Discusses Opportunities and Challenges of the Hydrogen Economy with Eugene Holubnya",
+        'title' => "NewHydrogen CEO Steve Hill Discusses Opportunities and Challenges of the Hydrogen Economy with Eugene Holubnyak",
         'date' => "September 26, 2023",
         'excerpt' => "NewHydrogen, Inc. (OTCMKTS:NEWH), the developer of a breakthrough technology that uses clean energy and water to produce the world’s cheapest green hydrogen, today announced that in a recent podcast, the company's CEO, Steve Hill, spoke with Eugene Holubnyak, Director of Hydrogen Energy Research Center at the University of Wyoming School of Energy Resources about opportunities and challenges of the hydrogen economy […]
         ",

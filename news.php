@@ -42,7 +42,7 @@ include('header.php'); ?>
         <div class="catlatest pt-0">
             <div class="newsPage-category">
                 <h2>News Commentary</h2>
-                <a href="video-news-commentary.php">See all <i class="fas fa-arrow-right"></i></a>
+                <a href="./videos/news-commentary">See all <i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="row">
                 <?php
@@ -51,6 +51,11 @@ include('header.php'); ?>
                 });
                 $latestCompanyNews = array_slice($filteredCommentaryNews, 0, 3);
                 foreach ($latestCompanyNews as $video) {
+                    if($video['date']){
+                        $title = $video['date']. " - " .$video['title'];
+                    } else {
+                        $title = $video['title'];
+                    }
                     echo "<div class=\"col-lg-4\">
                 <div class=\"catlatest-item\">
                     <div class=\"catlatest-thumbnail\">
@@ -61,7 +66,7 @@ include('header.php'); ?>
                     </svg>
                         <a href=\"single-video.php?id={$video['videoID']}\"></a>
                     </div>
-                    <h4>{$video['title']}</h4>
+                    <h4>$title</h4>
                 </div>
             </div>";
                 }

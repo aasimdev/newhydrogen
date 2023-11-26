@@ -2,7 +2,7 @@
 $GLOBALS['title'] = "Newhydrogen";
 $GLOBALS['desc'] = "";
 $GLOBALS['keywords'] = "";
-$videos = include "./data/podcast-data.php";
+$videos = include "./data/carousel-videos.php";
 include('header.php'); ?>
 
 
@@ -129,21 +129,12 @@ include('header.php'); ?>
     <div class="dp-carousel-main">
         <?php
         foreach ($videos as $video) {
-            $videoTitle = $video['title'];
-            $videoID = $video['videoID'];
-            $class = 'popup-youtube';
-            if (stripos($videoTitle, "Naomi Boness") !== false) {
-                $link = "naomi-boness-stanford.php";
-                $class = '';
-            } else {
-                $link = "https://www.youtube.com/watch?v=$videoID";
-                $class = 'popup-youtube';
-            }
-
+            $categoryName = ucwords(str_replace('-', ' ', $video['category']));
+            $categoryName = str_replace('Ceo', 'CEO', $categoryName);
             if ($video['category'] !== 'short-video' && $video['display']) {
                 echo "<div class=\"dp-carousel-item\">
                 <div class=\"podcast-item\">
-                <a href=\"$link\" class=\"$class\"> 
+                <a href=\"./videos/{$video['category']}/{$video['slug']}\"> 
                     <div class=\"podcast-item-thumbnail\"><img src=\"//img.youtube.com/vi/{$video['videoID']}/maxresdefault.jpg\" alt=\"Thumbnail\">
                     <svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64' fill='none'>
                     <circle cx='32' cy='32' r='32' fill='#4fe653'/>
@@ -151,7 +142,7 @@ include('header.php'); ?>
                 </svg>
                     </div>
                     </a>
-                    <h2> {$video['title']}</h2>
+                    <h2>$categoryName - {$video['title']}</h2>
                 </div>
                 </div>";
             }
